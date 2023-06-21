@@ -11,7 +11,7 @@ It includes the following sections:
 -Contact Me
 
 ## Usage
-My GitHub username is shown on the left side of the navbar. Each button on the right side of the navbar will bring you to its respective section on the website. 
+My GitHub username is shown on the left side of the navbar. Clicking on my username will take the user to my GitHub profile. Each button on the right side of the navbar will bring you to its respective section on the website. 
 
 -About Me is a simple overview of me and my life, interests, and pursuits.
 
