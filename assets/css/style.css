@@ -54,6 +54,14 @@ header h1 {
     font-size: 30px;
 }
 
+header h1 a {
+    padding: 5px;
+    height: 60px;
+    font-size: 25px;
+    color: var(--color-2);
+/* Learned how to apply this background transition from Alexander during office hours */
+}
+
 header div ul li {
     display: inline-block;
 }
