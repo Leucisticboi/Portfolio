@@ -1,45 +1,75 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <link rel="stylesheet" href="./assets/css/reset.css" />
-        <link rel="stylesheet" href="./assets/css/style.css" />
-        <title>LeucisticBoi</title></titile>
-    </head>
-    <body>
-        <header>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>LeucisticBoi</title>
+</head>
+<body>
+    <header class="bg-light">
+        <div class="container d-flex justify-content-between py-3">
             <h1><a href="https://github.com/Leucisticboi">LeucisticBoi</a></h1>
             <div>
-                <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
+                <ul class="list-unstyled d-flex">
+                    <li class="mr-3"><a href="#about-me">About Me</a></li>
+                    <li class="mr-3"><a href="#projects">Projects</a></li>
                     <li><a href="#contact-me">Contact Me</a></li>
                 </ul>
             </div>
-        </header>
-        <section class="container1" id="about-me">
-            <h2>About Me</h2>
-            <img id="portrait" src="./assets/images/Portrait.JPG" alt="man waving at the camera" />
-            <p>Welcome to my portfolio page!<br>My name is Robert, but I go by Milo. I am from a large family of intellectuals in Leonardtown, MD.
-            I currently have two dogs named Spike and Alice. I enjoy taking them on hikes in the Rocky Mountains during the summer, and during the winter we stay warm by visiting California.<br>
-            I have a wide range of hobbies and interests including reading, camping, snowboarding, leatherwork, crypto trading, video games, and many more. I am currently learning full-stack web development through the University of Utah's online coding bootcamp.</p>
-        </section>
-        <section class="container2" id="projects">
-            <h2>Projects</h2>
-            <div>
-                <a href="https://leucisticboi.github.io/prework-study-guide/"><p><b>Prework Study Guide</b></p><img src="./assets/images/pre-work-study-guide.png" alt="screenshot of a study guide website" id="study-guide"></a>
+        </div>
+    </header>
+    <section class="container py-5" id="about-me">
+        <h2>About Me</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img class="img-fluid" src="./assets/images/Portrait.JPG" alt="man waving at the camera" />
             </div>
-            <div>
-                <a href="https://leucisticboi.github.io/online-presence-optimization/"><p><b>Online Presence Optimization</b></p><img src="./assets/images/horiseon.png" alt="screenshot of an seo website" class="screenshot2"></a>
-                <a href="https://www.jzboxes.com/"><p><b>JZ Boxes</b></p><img src="./assets/images/jz-boxes.png" alt="website with image of solar panels" class="screenshot2"></a>
+            <div class="col-md-6">
+                <p>Welcome to my portfolio page!<br>My name is Robert, but I go by Milo. I am from a large family of intellectuals in Leonardtown, MD.
+                I currently have two dogs named Spike and Alice. I enjoy taking them on hikes in the Rocky Mountains during the summer, and during the winter we stay warm by visiting California.<br>
+                I have a wide range of hobbies and interests including reading, camping, snowboarding, leatherwork, crypto trading, video games, and many more. I am currently learning full-stack web development through the University of Utah's online coding bootcamp.</p>
             </div>
-        </section>
-        <footer id="contact-me">
-            <ul>
+        </div>
+    </section>
+    <section class="container py-5" id="projects">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <a href="https://leucisticboi.github.io/prework-study-guide/" class="text-dark text-decoration-none">
+                    <div class="border p-3">
+                        <p><b>Prework Study Guide</b></p>
+                        <img class="img-fluid" src="./assets/images/pre-work-study-guide.png" alt="screenshot of a study guide website" />
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="https://leucisticboi.github.io/online-presence-optimization/" class="text-dark text-decoration-none">
+                    <div class="border p-3">
+                        <p><b>Online Presence Optimization</b></p>
+                        <img class="img-fluid" src="./assets/images/horiseon.png" alt="screenshot of an seo website" />
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="https://www.jzboxes.com/" class="text-dark text-decoration-none">
+                    <div class="border p-3">
+                        <p><b>JZ Boxes</b></p>
+                        <img class="img-fluid" src="./assets/images/jz-boxes.png" alt="website with image of solar panels" />
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-light py-4" id="contact-me">
+        <div class="container text-center">
+            <ul class="list-unstyled mb-0">
                 <li><b>Email:</b> robert.henderson0597@gmail.com</li>
                 <li><b>Phone Number:</b> 801-694-4784</li>
                 <li><b>GitHub:</b> LeucisticBoi</li>
             </ul>
-        </footer>
-    </body>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
