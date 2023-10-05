@@ -38,6 +38,9 @@ WHEN I resize the page or view the site on various screens and devices
 
 THEN I am presented with a responsive layout that adapts to my viewport
 
+## Live URL
+[Portfolio](https://leucisticboi.github.io/Portfolio/)
+
 ## Usage
 My GitHub username is shown on the left side of the navbar. Clicking on my username will take the user to my GitHub profile. Each button on the right side of the navbar will bring you to its respective section on the website. 
 
